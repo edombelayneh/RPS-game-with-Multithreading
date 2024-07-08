@@ -25,7 +25,7 @@ This was a solo project. The game uses multithreading to accommodate multiple us
 - Here is what it looks like for 1 game = 2 players
 ![Screenshot 2024-07-08 at 1 22 16 PM](https://github.com/edombelayneh/RPS-game-with-Multithreading/assets/101343364/cf510b01-ebc6-4bb8-a2a4-f43d20904f93)
 
-- Below you have messages to help track with the game:
+- Below you have messages to help track with the game
   - Such as announcing the winner
   - Waiting for a player,etc...
 ![Screenshot 2024-07-08 at 1 22 33 PM](https://github.com/edombelayneh/RPS-game-with-Multithreading/assets/101343364/babba64d-edd9-4e90-b90a-90f580b81aba)
