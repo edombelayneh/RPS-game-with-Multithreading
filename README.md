@@ -27,7 +27,8 @@ This was a solo project. The game uses multithreading to accommodate multiple us
 
 - Below you have messages to help track with the game
   - Such as announcing the winner
-  - Waiting for a player,etc...
+  - Waiting for a player
+  - Choosing to Quit or Play Again, etc...
 ![Screenshot 2024-07-08 at 1 22 33 PM](https://github.com/edombelayneh/RPS-game-with-Multithreading/assets/101343364/babba64d-edd9-4e90-b90a-90f580b81aba)
 
 - As mentioned above, the system can handle multiple games concurrently. Here we have 2 games with two players each, a total of 4 players.
