@@ -22,32 +22,23 @@ This was a solo project. The game uses multithreading to accommodate multiple us
 
 
 ## Steps and Some Preview
-- Starts off with a home screen
-<img width="1440" alt="Screenshot 2024-07-07 at 9 40 02 PM" src="https://github.com/edombelayneh/Zombie-Apocalypse-Video-Game-Z-Lock/assets/101343364/a1e9aabc-aecd-4e84-b799-ec5e9993502d">
+- Here is what it looks like for 1 game = 2 players
+![Screenshot 2024-07-08 at 1 22 16 PM](https://github.com/edombelayneh/RPS-game-with-Multithreading/assets/101343364/cf510b01-ebc6-4bb8-a2a4-f43d20904f93)
 
+- Below you have messages to help track with the game:
+  - Such as announcing the winner
+  - Waiting for a player,etc...
+![Screenshot 2024-07-08 at 1 22 33 PM](https://github.com/edombelayneh/RPS-game-with-Multithreading/assets/101343364/babba64d-edd9-4e90-b90a-90f580b81aba)
 
+- As mentioned above, the system can handle multiple games concurrently. Here we have 2 games with two players each, a total of 4 players.
+![Screenshot 2024-07-08 at 1 25 38 PM](https://github.com/edombelayneh/RPS-game-with-Multithreading/assets/101343364/720b6abd-ca4d-4558-88d7-55051758f1af)
 
-- The storyline is told page after page. Here's just a section of it.
-<img width="1440" alt="Screenshot 2024-07-07 at 9 40 49 PM" src="https://github.com/edombelayneh/Zombie-Apocalypse-Video-Game-Z-Lock/assets/101343364/3437b954-3212-447d-a96f-cf2199ec7d4e">
+- Handling multiple games with two players each is just as efficient and possible as just one game.
+![Screenshot 2024-07-08 at 1 25 38 PM](https://github.com/edombelayneh/RPS-game-with-Multithreading/assets/101343364/3d8e9444-0cd5-4791-87d8-08ae2b32494f)
 
-
-- Depending on the floor (on the level) the number of Zombies increases and time decreases. There are four objects a player can collect:
-  - **A Key:** 3 keys are on each floor, each key needs to be collected before the time runs out. 
-  - **A Brain:** gives user more time (considering that zombies love eating brain :))
-  - **A Syringe:** gives user more health and therefore more time.
-  - **A Rotten Apple:** gives user less life (less health) and less time.
- 
-<img width="1440" alt="Screenshot 2024-07-07 at 9 42 30 PM" src="https://github.com/edombelayneh/Zombie-Apocalypse-Video-Game-Z-Lock/assets/101343364/df6cbb46-4fd0-4e57-8c7b-fbc37b0a88f9">
-
-
-
-- Finally there is the credits.
-<img width="1440" alt="Screenshot 2024-07-07 at 9 44 01 PM" src="https://github.com/edombelayneh/Zombie-Apocalypse-Video-Game-Z-Lock/assets/101343364/aca72730-5191-4037-b1da-388bfbea2c19">
+- Here is the server at work while handling concurrent games.
+![Screenshot 2024-07-08 at 1 26 26 PM](https://github.com/edombelayneh/RPS-game-with-Multithreading/assets/101343364/6c072ca5-ffd7-483f-a24d-3536ecca8867)
 
 
 ## To Execute
-- Download Unity
-- Download this as a zip file
-- Open file in Unity
-- Go to file -> Build and Run
-- It should work!!
+- You will need Eclipse!
